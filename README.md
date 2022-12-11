@@ -1,70 +1,63 @@
-# Getting Started with Create React App
+<div align="center">
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Captcha validation form 
 
-## Available Scripts
+### assignment by Simplifii Labs
 
-In the project directory, you can run:
+# [Live link](https://simplifii-labs-captcha-generator.netlify.app/) 
 
-### `npm start`
+</div>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# 📖 About 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+This app is all about generating a captcha from scratch i.e. writing a function for generating captcha on  a form validation . 
+This app has a home page which has some input fields which have to be filled correctly in order to submit the form.
+After submitting the form the user will be navigated to the information page where the user will be able to see the details what has been entered by the user .
+Also , Information page has back button, after clicking on it user can navigate to previous page from where the user had been redirected . 
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# 🚀 Features It has
 
-### `npm run build`
+### 
+     Single page application
+     Handling empty states 
+     Error handling
+     
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![image](https://user-images.githubusercontent.com/91511639/206903329-710e4af4-a5eb-495f-855a-ce4ab3c45c0c.png)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## :point_down:
 
-### `npm run eject`
+User can't able to submit with name field empty. 
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+![image](https://user-images.githubusercontent.com/91511639/206903400-312f1c66-b9b0-45a5-a1d9-89618f2380f0.png)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## :point_down:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+User can't able to submit with email field empty . 
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+![image](https://user-images.githubusercontent.com/91511639/206903431-a94d9734-19ec-4589-a853-bb0f2b2d54af.png)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## :point_down:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+User can't able to submit with captcha field empty. 
 
-### Code Splitting
+![image](https://user-images.githubusercontent.com/91511639/206903490-172e23c9-1607-4b4b-b2d4-3fed60204a99.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+## :point_down:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+User can't able to submit with unmatched captcha , they have to match the captcha to submit the form  . 
+![image](https://user-images.githubusercontent.com/91511639/206903518-5e94c383-6dc0-4f34-abc8-d4bf36262246.png)
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## :point_down:
 
-### Advanced Configuration
+After filling all the details correctly, the user will be navigated to the information page to get the information entered .
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+![image](https://user-images.githubusercontent.com/91511639/206904353-946d3413-74a8-456a-9c40-816bd9ac071d.png)
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Information page has back button also, after clicking on it user can navigate to previous page from where he came .
