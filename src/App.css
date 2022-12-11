@@ -1,3 +1,16 @@
+:root{
+    --bg-color-primary-dark:#f5f5f5;
+    --bg-color-primary-light:#fff;
+    --bg-color-secondary:#fecaca;
+    --bg-color-secondary-light:#888;
+    --text-color-primary:#111;
+    --text-color-primary-light:#eee;;
+    --text-color-primary-dark:#555;
+    --text-color-secondary:#b91c1c;
+    --border-color-primary:#888;
+    --button-color-primary:#4c81ff;
+}
+
 *{
     margin: 0px;
     padding: 0px;
@@ -5,5 +18,5 @@
 }
 body{
     font-family: "Roboto", sans-serif;
-    background: #f5f5f5;
+    background: var(--bg-color-primary-dark);
 }

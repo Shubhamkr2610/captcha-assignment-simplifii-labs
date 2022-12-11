@@ -1,21 +1,20 @@
 import React from 'react'
+import './infopage.css'
 import { useNavigate } from 'react-router-dom'
 
 export const InfoPage = ({info}) => {
     const navigate = useNavigate()
   return (
     <>
-    <div className="login-form">
-      <div className="form-title">Your Information</div>
-      <div className="from-input">
-        <label htmlFor="username">Name</label>
-        <input type="text" id="username" placeholder="Enter name here" />{info.name}
+    <div className="info-form">
+      <div className="info-form-title">Your info</div>
+      <div className="info-form-input">
+        Name : {info.name}
       </div>
-      <div className="from-input">
-        <label htmlFor="email">Email</label>
-        <input type="email" id="email" placeholder="Enter email here" />{info.email}
+      <div className="info-form-input">
+        Email : {info.email}
       </div>
-      <div className="from-input">
+      <div className="info-form-input">
         <button id="login-btn" onClick={()=>navigate(-1)}>
           Go back
         </button>
